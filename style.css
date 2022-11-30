@@ -1,0 +1,32 @@
+body{
+    font-family: 'Permanent Marker', cursive;
+    background-size: cover;
+    text-align: center;
+}
+.note{
+    font-size: 15px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+canvas{
+    border-radius: 20px;
+    border: black 3px solid;
+    box-shadow: 5px 5px 5px white;
+    animation-iteration-count: infinite;
+    animation-name: shadow;
+    animation-duration: 4s;
+}
+@keyframes shadow{
+    from{box-shadow: white;}
+    to{box-shadow: paleturquoise;}
+}
+.heading{
+    width: 100%;
+    box-shadow: 5px 5px 5px white;
+    margin: 0;
+
+}
+
+.heading:hover{
+    background-color: aquamarine;
+}
