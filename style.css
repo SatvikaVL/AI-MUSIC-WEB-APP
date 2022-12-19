@@ -15,6 +15,7 @@ canvas{
     animation-iteration-count: infinite;
     animation-name: shadow;
     animation-duration: 4s;
+    margin: 5px;
 }
 @keyframes shadow{
     from{box-shadow: white;}
